@@ -1,0 +1,36 @@
+.how-it-works {
+    background: #efefef;
+    padding: 40px 0 60px;
+
+    h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        padding-bottom: 40px;
+        font-family: 'segoe-ui-bold';
+        color: #666;
+    }
+
+    h4 {
+        margin-top: 15px;
+        font-size: 1.375rem;
+        font-weight: 700;
+        font-family: 'segoe-ui-bold';
+        color: #666;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.3em;
+        margin: auto;
+        padding-top: 10px;
+        max-width: 362px;
+        color: #666;
+    }
+
+    .icon {
+        svg {
+            width: 100%;
+            height: 60px;
+        }
+    }
+}

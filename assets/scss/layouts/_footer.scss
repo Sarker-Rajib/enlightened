@@ -1,0 +1,19 @@
+.footer {
+    padding: 10px 15px;
+
+    .foot-image {
+        width: 170px;
+    }
+
+    a,
+    p {
+        font-family: 'segoe-ui-regular';
+        color: #747474;
+        font-size: 0.9rem;
+        transition: all 0.3s linear;
+    }
+
+    a:hover {
+        color: #65b4e6;
+    }
+}

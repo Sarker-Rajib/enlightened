@@ -1,0 +1,195 @@
+/*=== abstracts css start === */
+@font-face {
+  font-family: "segoe-ui-regular";
+  src: url(../fonts/SegoeUIregular.ttf);
+}
+@font-face {
+  font-family: "segoe-ui-bold";
+  src: url(../fonts/SegoeUIBold.ttf);
+}
+@media (max-width: 767px) {
+  .offcanvas.offcanvas-end {
+    width: 100%;
+  }
+}
+.offcanvas.offcanvas-end h4 {
+  font-size: 20px;
+}
+.offcanvas.offcanvas-end label,
+.offcanvas.offcanvas-end p {
+  font-size: 14px;
+  font-family: "segoe-ui-regular";
+}
+.offcanvas.offcanvas-end .address {
+  height: 0;
+  transition: all 0.3s linear;
+  overflow: hidden;
+}
+.offcanvas.offcanvas-end input:focus {
+  box-shadow: none;
+}
+
+/*===// end of abstracts css === */
+/*=== base css start === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: "segoe-ui-regular";
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #76888d;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1c83b3;
+}
+
+/*===// end of base css === */
+/*=== layouts css start === */
+.header .navbar .nav-item .nav-link {
+  color: #256bb4;
+  font-size: 1.1rem;
+  font-family: "segoe-ui-bold";
+}
+
+.banner {
+  min-height: 45vh;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  background: url(./../images/banner-bg.jpg) no-repeat center center/cover;
+}
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.banner h2 {
+  font-size: 2.5rem;
+  line-height: 1em;
+  margin-bottom: 20px;
+  font-family: "segoe-ui-bold";
+}
+.banner p {
+  font-size: 1.125rem;
+  line-height: 1.3em;
+  padding: 0 15px;
+  font-family: "segoe-ui-regular";
+}
+
+.footer {
+  padding: 10px 15px;
+}
+.footer .foot-image {
+  width: 170px;
+}
+.footer a,
+.footer p {
+  font-family: "segoe-ui-regular";
+  color: #747474;
+  font-size: 0.9rem;
+  transition: all 0.3s linear;
+}
+.footer a:hover {
+  color: #65b4e6;
+}
+
+/*===// end of layouts css === */
+/*=== components css start === */
+.estimate-btn {
+  width: 270px;
+  height: 55px;
+  color: #fff;
+  background: #256bb4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.29);
+  text-decoration: none;
+  transition: all 0.3s linear;
+  font-family: "segoe-ui-regular";
+  font-size: 1.5rem;
+}
+.estimate-btn:hover {
+  background: #3684d6;
+  color: #fff;
+}
+
+.how-it-works {
+  background: #efefef;
+  padding: 40px 0 60px;
+}
+.how-it-works h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 40px;
+  font-family: "segoe-ui-bold";
+  color: #666;
+}
+.how-it-works h4 {
+  margin-top: 15px;
+  font-size: 1.375rem;
+  font-weight: 700;
+  font-family: "segoe-ui-bold";
+  color: #666;
+}
+.how-it-works p {
+  font-size: 1rem;
+  line-height: 1.3em;
+  margin: auto;
+  padding-top: 10px;
+  max-width: 362px;
+  color: #666;
+}
+.how-it-works .icon svg {
+  width: 100%;
+  height: 60px;
+}
+
+/*===// end of components css === *//*# sourceMappingURL=style.css.map */
